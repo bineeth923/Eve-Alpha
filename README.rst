@@ -1,16 +1,12 @@
 Eve
 ====
-.. image:: https://secure.travis-ci.org/nicolaiarocci/eve.png?branch=master 
-        :target: https://secure.travis-ci.org/nicolaiarocci/eve
 
 Eve is an open source Python REST API framework designed for human beings. It
 allows to effortlessly build and deploy highly customizable, fully featured
 RESTful Web Services.
 
-Eve is powered by Flask, Redis, Cerberus, Events and offers support for both
-MongoDB and SQL backends.
+Eve is powered by Flask, Redis, Cerberus, Events and offers support for SQL backends.
 
-The codebase is thoroughly tested under Python 2.6, 2.7, 3.3, 3.4 and PyPy.
 
 Eve is Simple
 -------------
@@ -68,7 +64,7 @@ Features
 * Internal Resources
 * Enhanced Logging
 * Operations Log
-* MongoDB and SQL Support
+* SQL Support
 * Powered by Flask
 
 
