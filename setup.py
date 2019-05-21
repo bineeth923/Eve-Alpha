@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
 from setuptools import setup, find_packages
-DESCRIPTION = ("Python REST API for Humans.")
+DESCRIPTION = ("Eve-alpha is an forked verison of Eve, thanks to Nicola Iarocci."
+               "This is specifically designed to work with Eve-Sqlalchemy-alpha, mainly "
+               "favouring SQLAlchemy.")
 with open('README.rst') as f:
     LONG_DESCRIPTION = f.read()
 
@@ -24,13 +26,13 @@ except ImportError:
 
 
 setup(
-    name='Eve',
-    version='0.6.4a',
+    name='Eve-alpha',
+    version='0.6.2',
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     author='Nicola Iarocci',
     author_email='eve@nicolaiarocci.com',
-    url='http://python-eve.org',
+    url='http://github.com/bineeth923/eve-alpha',
     license='BSD',
     platforms=["any"],
     packages=find_packages(),
@@ -45,11 +47,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
 )
